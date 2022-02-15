@@ -10,7 +10,7 @@ export class User {
 
   constructor(props: Omit<User, 'id'>, id?: string) {
     Object.assign(this, props);
-
+    //test
     if (!id) {
       this.id = uuid();
     }
