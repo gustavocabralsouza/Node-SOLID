@@ -15,6 +15,7 @@ export class CreateUserController {
         email,
         password
       })
+      //test
   
       return response.status(201).send();  
     } catch (err) {
